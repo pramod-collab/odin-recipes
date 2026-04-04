@@ -5,4 +5,55 @@
 
 }
 
+body {
+    font-family: "Helvetica neue", Helvetica, sans-serif;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 0%;
+}
+
+.heading {
+    color:yellowgreen;
+    background-color: red;
+    width: 300px;
+    margin:auto;
+    position: relative;
+    top: 60px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.container {
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-between;
+}
+
+li{
+    list-style-type: none;
+    background-color: wheat;
+    
+}
+
+footer {
+    text-align: center;
+    position:relative;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    padding:18px;
+    text-align:center;
+
+}
+ a {
+    text-decoration: none;
+    background-color: brown;
+    color: blanchedalmond;
+    font-size: 20px;
+    font-weight: 500;
+ }
 
